@@ -1,0 +1,584 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		845DF1332292AE1E0004DE00 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF1322292AE1E0004DE00 /* AppDelegate.m */; };
+		845DF1362292AE1E0004DE00 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF1352292AE1E0004DE00 /* ViewController.m */; };
+		845DF1392292AE1E0004DE00 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845DF1372292AE1E0004DE00 /* Main.storyboard */; };
+		845DF13B2292AE200004DE00 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 845DF13A2292AE200004DE00 /* Assets.xcassets */; };
+		845DF13E2292AE200004DE00 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 845DF13C2292AE200004DE00 /* LaunchScreen.storyboard */; };
+		845DF1412292AE200004DE00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF1402292AE200004DE00 /* main.m */; };
+		845DF14B2292AE200004DE00 /* QKHomeAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF14A2292AE200004DE00 /* QKHomeAlertTests.m */; };
+		845DF1562292AE200004DE00 /* QKHomeAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF1552292AE200004DE00 /* QKHomeAlertUITests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		845DF1472292AE200004DE00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845DF1262292AE1E0004DE00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845DF12D2292AE1E0004DE00;
+			remoteInfo = QKHomeAlert;
+		};
+		845DF1522292AE200004DE00 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 845DF1262292AE1E0004DE00 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 845DF12D2292AE1E0004DE00;
+			remoteInfo = QKHomeAlert;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		845DF12E2292AE1E0004DE00 /* QKHomeAlert.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QKHomeAlert.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		845DF1312292AE1E0004DE00 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		845DF1322292AE1E0004DE00 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		845DF1342292AE1E0004DE00 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		845DF1352292AE1E0004DE00 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		845DF1382292AE1E0004DE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		845DF13A2292AE200004DE00 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		845DF13D2292AE200004DE00 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		845DF13F2292AE200004DE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845DF1402292AE200004DE00 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		845DF1462292AE200004DE00 /* QKHomeAlertTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKHomeAlertTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		845DF14A2292AE200004DE00 /* QKHomeAlertTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKHomeAlertTests.m; sourceTree = "<group>"; };
+		845DF14C2292AE200004DE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		845DF1512292AE200004DE00 /* QKHomeAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKHomeAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		845DF1552292AE200004DE00 /* QKHomeAlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKHomeAlertUITests.m; sourceTree = "<group>"; };
+		845DF1572292AE200004DE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		845DF12B2292AE1E0004DE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845DF1432292AE200004DE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845DF14E2292AE200004DE00 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		845DF1252292AE1E0004DE00 = {
+			isa = PBXGroup;
+			children = (
+				845DF1302292AE1E0004DE00 /* QKHomeAlert */,
+				845DF1492292AE200004DE00 /* QKHomeAlertTests */,
+				845DF1542292AE200004DE00 /* QKHomeAlertUITests */,
+				845DF12F2292AE1E0004DE00 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		845DF12F2292AE1E0004DE00 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				845DF12E2292AE1E0004DE00 /* QKHomeAlert.app */,
+				845DF1462292AE200004DE00 /* QKHomeAlertTests.xctest */,
+				845DF1512292AE200004DE00 /* QKHomeAlertUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		845DF1302292AE1E0004DE00 /* QKHomeAlert */ = {
+			isa = PBXGroup;
+			children = (
+				845DF1312292AE1E0004DE00 /* AppDelegate.h */,
+				845DF1322292AE1E0004DE00 /* AppDelegate.m */,
+				845DF1342292AE1E0004DE00 /* ViewController.h */,
+				845DF1352292AE1E0004DE00 /* ViewController.m */,
+				845DF1372292AE1E0004DE00 /* Main.storyboard */,
+				845DF13A2292AE200004DE00 /* Assets.xcassets */,
+				845DF13C2292AE200004DE00 /* LaunchScreen.storyboard */,
+				845DF13F2292AE200004DE00 /* Info.plist */,
+				845DF1402292AE200004DE00 /* main.m */,
+			);
+			path = QKHomeAlert;
+			sourceTree = "<group>";
+		};
+		845DF1492292AE200004DE00 /* QKHomeAlertTests */ = {
+			isa = PBXGroup;
+			children = (
+				845DF14A2292AE200004DE00 /* QKHomeAlertTests.m */,
+				845DF14C2292AE200004DE00 /* Info.plist */,
+			);
+			path = QKHomeAlertTests;
+			sourceTree = "<group>";
+		};
+		845DF1542292AE200004DE00 /* QKHomeAlertUITests */ = {
+			isa = PBXGroup;
+			children = (
+				845DF1552292AE200004DE00 /* QKHomeAlertUITests.m */,
+				845DF1572292AE200004DE00 /* Info.plist */,
+			);
+			path = QKHomeAlertUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		845DF12D2292AE1E0004DE00 /* QKHomeAlert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845DF15A2292AE200004DE00 /* Build configuration list for PBXNativeTarget "QKHomeAlert" */;
+			buildPhases = (
+				845DF12A2292AE1E0004DE00 /* Sources */,
+				845DF12B2292AE1E0004DE00 /* Frameworks */,
+				845DF12C2292AE1E0004DE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QKHomeAlert;
+			productName = QKHomeAlert;
+			productReference = 845DF12E2292AE1E0004DE00 /* QKHomeAlert.app */;
+			productType = "com.apple.product-type.application";
+		};
+		845DF1452292AE200004DE00 /* QKHomeAlertTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845DF15D2292AE200004DE00 /* Build configuration list for PBXNativeTarget "QKHomeAlertTests" */;
+			buildPhases = (
+				845DF1422292AE200004DE00 /* Sources */,
+				845DF1432292AE200004DE00 /* Frameworks */,
+				845DF1442292AE200004DE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845DF1482292AE200004DE00 /* PBXTargetDependency */,
+			);
+			name = QKHomeAlertTests;
+			productName = QKHomeAlertTests;
+			productReference = 845DF1462292AE200004DE00 /* QKHomeAlertTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		845DF1502292AE200004DE00 /* QKHomeAlertUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 845DF1602292AE200004DE00 /* Build configuration list for PBXNativeTarget "QKHomeAlertUITests" */;
+			buildPhases = (
+				845DF14D2292AE200004DE00 /* Sources */,
+				845DF14E2292AE200004DE00 /* Frameworks */,
+				845DF14F2292AE200004DE00 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				845DF1532292AE200004DE00 /* PBXTargetDependency */,
+			);
+			name = QKHomeAlertUITests;
+			productName = QKHomeAlertUITests;
+			productReference = 845DF1512292AE200004DE00 /* QKHomeAlertUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		845DF1262292AE1E0004DE00 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = qiake;
+				TargetAttributes = {
+					845DF12D2292AE1E0004DE00 = {
+						CreatedOnToolsVersion = 10.1;
+					};
+					845DF1452292AE200004DE00 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 845DF12D2292AE1E0004DE00;
+					};
+					845DF1502292AE200004DE00 = {
+						CreatedOnToolsVersion = 10.1;
+						TestTargetID = 845DF12D2292AE1E0004DE00;
+					};
+				};
+			};
+			buildConfigurationList = 845DF1292292AE1E0004DE00 /* Build configuration list for PBXProject "QKHomeAlert" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 845DF1252292AE1E0004DE00;
+			productRefGroup = 845DF12F2292AE1E0004DE00 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				845DF12D2292AE1E0004DE00 /* QKHomeAlert */,
+				845DF1452292AE200004DE00 /* QKHomeAlertTests */,
+				845DF1502292AE200004DE00 /* QKHomeAlertUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		845DF12C2292AE1E0004DE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845DF13E2292AE200004DE00 /* LaunchScreen.storyboard in Resources */,
+				845DF13B2292AE200004DE00 /* Assets.xcassets in Resources */,
+				845DF1392292AE1E0004DE00 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845DF1442292AE200004DE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845DF14F2292AE200004DE00 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		845DF12A2292AE1E0004DE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845DF1362292AE1E0004DE00 /* ViewController.m in Sources */,
+				845DF1412292AE200004DE00 /* main.m in Sources */,
+				845DF1332292AE1E0004DE00 /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845DF1422292AE200004DE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845DF14B2292AE200004DE00 /* QKHomeAlertTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		845DF14D2292AE200004DE00 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				845DF1562292AE200004DE00 /* QKHomeAlertUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		845DF1482292AE200004DE00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845DF12D2292AE1E0004DE00 /* QKHomeAlert */;
+			targetProxy = 845DF1472292AE200004DE00 /* PBXContainerItemProxy */;
+		};
+		845DF1532292AE200004DE00 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 845DF12D2292AE1E0004DE00 /* QKHomeAlert */;
+			targetProxy = 845DF1522292AE200004DE00 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		845DF1372292AE1E0004DE00 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845DF1382292AE1E0004DE00 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		845DF13C2292AE200004DE00 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				845DF13D2292AE200004DE00 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		845DF1582292AE200004DE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		845DF1592292AE200004DE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		845DF15B2292AE200004DE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5Q62AH56E;
+				INFOPLIST_FILE = QKHomeAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenzhen.qkkj.cashLoan.QKHomeAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		845DF15C2292AE200004DE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5Q62AH56E;
+				INFOPLIST_FILE = QKHomeAlert/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenzhen.qkkj.cashLoan.QKHomeAlert;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		845DF15E2292AE200004DE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5Q62AH56E;
+				INFOPLIST_FILE = QKHomeAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenzhen.qkkj.cashLoan.QKHomeAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QKHomeAlert.app/QKHomeAlert";
+			};
+			name = Debug;
+		};
+		845DF15F2292AE200004DE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5Q62AH56E;
+				INFOPLIST_FILE = QKHomeAlertTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenzhen.qkkj.cashLoan.QKHomeAlertTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QKHomeAlert.app/QKHomeAlert";
+			};
+			name = Release;
+		};
+		845DF1612292AE200004DE00 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5Q62AH56E;
+				INFOPLIST_FILE = QKHomeAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenzhen.qkkj.cashLoan.QKHomeAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QKHomeAlert;
+			};
+			name = Debug;
+		};
+		845DF1622292AE200004DE00 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = S5Q62AH56E;
+				INFOPLIST_FILE = QKHomeAlertUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.shenzhen.qkkj.cashLoan.QKHomeAlertUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = QKHomeAlert;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		845DF1292292AE1E0004DE00 /* Build configuration list for PBXProject "QKHomeAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845DF1582292AE200004DE00 /* Debug */,
+				845DF1592292AE200004DE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845DF15A2292AE200004DE00 /* Build configuration list for PBXNativeTarget "QKHomeAlert" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845DF15B2292AE200004DE00 /* Debug */,
+				845DF15C2292AE200004DE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845DF15D2292AE200004DE00 /* Build configuration list for PBXNativeTarget "QKHomeAlertTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845DF15E2292AE200004DE00 /* Debug */,
+				845DF15F2292AE200004DE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		845DF1602292AE200004DE00 /* Build configuration list for PBXNativeTarget "QKHomeAlertUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				845DF1612292AE200004DE00 /* Debug */,
+				845DF1622292AE200004DE00 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 845DF1262292AE1E0004DE00 /* Project object */;
+}
