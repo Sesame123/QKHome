@@ -15,6 +15,7 @@
 		845DF1412292AE200004DE00 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF1402292AE200004DE00 /* main.m */; };
 		845DF14B2292AE200004DE00 /* QKHomeAlertTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF14A2292AE200004DE00 /* QKHomeAlertTests.m */; };
 		845DF1562292AE200004DE00 /* QKHomeAlertUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 845DF1552292AE200004DE00 /* QKHomeAlertUITests.m */; };
+		84AAC8B1235806D80079BEF6 /* QKHomeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 84AAC8B0235806D80079BEF6 /* QKHomeVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		845DF1512292AE200004DE00 /* QKHomeAlertUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QKHomeAlertUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		845DF1552292AE200004DE00 /* QKHomeAlertUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKHomeAlertUITests.m; sourceTree = "<group>"; };
 		845DF1572292AE200004DE00 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84AAC8AF235806D80079BEF6 /* QKHomeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = QKHomeVC.h; sourceTree = "<group>"; };
+		84AAC8B0235806D80079BEF6 /* QKHomeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QKHomeVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				845DF1322292AE1E0004DE00 /* AppDelegate.m */,
 				845DF1342292AE1E0004DE00 /* ViewController.h */,
 				845DF1352292AE1E0004DE00 /* ViewController.m */,
+				84AAC8AF235806D80079BEF6 /* QKHomeVC.h */,
+				84AAC8B0235806D80079BEF6 /* QKHomeVC.m */,
 				845DF1372292AE1E0004DE00 /* Main.storyboard */,
 				845DF13A2292AE200004DE00 /* Assets.xcassets */,
 				845DF13C2292AE200004DE00 /* LaunchScreen.storyboard */,
@@ -265,6 +270,7 @@
 				845DF1362292AE1E0004DE00 /* ViewController.m in Sources */,
 				845DF1412292AE200004DE00 /* main.m in Sources */,
 				845DF1332292AE1E0004DE00 /* AppDelegate.m in Sources */,
+				84AAC8B1235806D80079BEF6 /* QKHomeVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
