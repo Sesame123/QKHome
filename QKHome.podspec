@@ -2,10 +2,10 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "QKHome"
-  spec.version      = "0.0.1"
+  spec.version      = "0.0.2"
   spec.summary      = "Nothing to descript"
   spec.description  = <<-DESC
-                        0.0.1
+                        0.0.2
                         It should to be longer than summar,it is so unbelivable.
                    DESC
   spec.homepage     = "https://github.com/Sesame123/QKHome"
