@@ -15,7 +15,7 @@ Pod::Spec.new do |spec|
   spec.authors = {"1100114"=>"zhuzhijie@szqk-tech.com"}
   # spec.ios.deployment_target = "5.0"
   spec.source       = { :git => "https://github.com/Sesame123/QKHome.git", :tag => "#{spec.version}" }
-  spec.source_files  =  "QKHome"
+  spec.source_files  =  "QKHomeVC"
   #spec.exclude_files = "Classes/Exclude"
 
 end
